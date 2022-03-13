@@ -3,6 +3,31 @@ var present= moment().format('MMMM Do YYYY, h:mm:ss a')
 //append the var to html id for currentDay
 $('#currentDay').html(present)
 
+//object grabs to local storage
+$(".0").val(localStorage.getItem("0"));
+$(".1").val(localStorage.getItem("1"));
+$(".3").val(localStorage.getItem("3"));
+$(".4").val(localStorage.getItem("4"));
+$(".5").val(localStorage.getItem("5"));
+$(".6").val(localStorage.getItem("6"));
+$(".7").val(localStorage.getItem("7"));
+$(".8").val(localStorage.getItem("8"));
+$(".9").val(localStorage.getItem("9"));
+$(".10").val(localStorage.getItem("10"));
+$(".11").val(localStorage.getItem("11"));
+$(".12").val(localStorage.getItem("12"));
+$(".13").val(localStorage.getItem("13"));
+$(".14").val(localStorage.getItem("14"));
+$(".15").val(localStorage.getItem("15"));
+$(".16").val(localStorage.getItem("16"));
+$(".17").val(localStorage.getItem("17"));
+$(".18").val(localStorage.getItem("18"));
+$(".19").val(localStorage.getItem("19"));
+$(".20").val(localStorage.getItem("20"));
+$(".21").val(localStorage.getItem("21"));
+$(".22").val(localStorage.getItem("22"));
+$(".23").val(localStorage.getItem("23"));
+
 //check time
 function thisTime() {
     //current time variable
@@ -28,6 +53,8 @@ function thisTime() {
     }
 });
 }
+
+
 
 thisTime()
 
