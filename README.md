@@ -16,6 +16,8 @@ Future features:
 
 **Screenshot**
 ![image](https://user-images.githubusercontent.com/98298450/158076819-2637565f-c233-4fb0-ad32-a626e91857df.png)
+![image](https://user-images.githubusercontent.com/98298450/158077076-a9d647a4-1b1b-4e35-b195-571a1ec47079.png)
+
 
 **Working website**
 https://oathofisaac.github.io/schedulo/
