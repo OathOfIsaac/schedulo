@@ -54,6 +54,15 @@ function thisTime() {
 });
 }
 
+//save button onclick
+$(".saveBtn").click(function() {
+
+    //save it at the time entered
+    var task = $(this).siblings(".tasktext").val();
+    var timestamp = $(this).parent().attr("id");
+    localStorage.setItem(timestamp, task);
+});
+
 
 
 thisTime()

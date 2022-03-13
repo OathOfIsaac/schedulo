@@ -6,12 +6,13 @@ body {
 
 textarea{
   background: transparent;
-  border: none;
+  border: thin double #32a1ce;
   resize: none;
   color: #000000;
   border-left: 1px solid black;
-  padding: 10px;
+  padding: 5px;
   white-space: pre-line;
+  font-style: bold
 }
 
 .jumbotron {
@@ -66,7 +67,7 @@ textarea{
 }
 
 .saveBtn {
-  border-left: 1px solid black;
+  border-left: 2px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #06AED5;
@@ -83,4 +84,10 @@ textarea{
  position:relative;
  left: -10px /*this will move it 30 px to the right*/
 
+}
+
+.officehours {
+  border: 2mm ridge rgba(216, 19, 19, 0.986);
+  
+  
 }
